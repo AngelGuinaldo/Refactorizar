@@ -1,41 +1,45 @@
-
 package boletin3;
 
-
 public class Consumo {
+
     private float km;
     private float litros;
     private float vMed;
     private float pGas;
-    
-    public Consumo(){
-        
+
+    public Consumo() {
+
     }
 
-    
-    public Consumo(float km, float litros, float vMed, float pGas){
+    public Consumo(float km, float litros, float vMed, float pGas) {
         this.km = km;
-        this.litros=litros;
-        this.vMed=vMed;
-        this.pGas=pGas;
-       
+        this.litros = litros;
+        this.vMed = vMed;
+        this.pGas = pGas;
+
     }
-    public float getkm(){
+
+    public float getkm() {
         return km;
     }
-    public float getlitros(){
+
+    public float getlitros() {
         return litros;
     }
-    public float vMed(){
+
+    public float vMed() {
         return vMed;
     }
-    public float pGas(){
+
+    public float pGas() {
         return pGas;
     }
-    public float getTempo(){
-        return km/vMed;
+
+    public float getTempo() {
+        return km / vMed;
     }
-    public float consumoMedio(){
-        return litros/km;
+
+    public float consumoMedio() {
+        return litros / km;
     }
 }
